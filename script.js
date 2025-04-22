@@ -515,5 +515,5 @@ window.addEventListener('beforeunload', function (e) {
 // Add event listener for next step button
 btnNextStep.addEventListener('click', function(e) {
   e.preventDefault();
-  window.location.href = 'https://bankifye.netlify.app/';
+  window.location.href = 'https://dashboard.stripe.com/register';
 });
